@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#body1 {
+  height: 100%;
+  width: 100%;
+}
+.button {
+  background-color: #f0f0f0;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  background-color: #3700b3;
+  height: 10%;
+  width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#logo {
+  width: 60px;
+  position: absolute;
+  top: 7px;
+  left: 20px;
+}
+
+#head_name {
+  color: #f0f0f0;
+  position: absolute;
+  left: 80px;
+}
+
+#head_login {
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 78%;
+  position: relative;
+  top: 25px;
+}
+
+#head_signup {
+  margin-left: 3%;
+  margin-top: 100px;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+.container2 {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/bgimage1.jpg");
+  background-repeat: no-repeat;
+  background-color: #313131;
+}
+
+.container2 p {
+  margin-left: 30%;
+  margin-top: 120px;
+  line-height: 2em;
+  color: #f0f0f0;
+  font-size: 30px;
+}
+
+.container2 a {
+  margin-left: 30%;
+}
+
+.container2_element1 {
+  float: left;
+  height: 100%;
+  width: 45%;
+}
+
+.container2_element2 {
+  float: right;
+  background-image: url("../images/connect.jpg");
+  background-repeat: none;
+  background-color: #313131;
+  border: none;
+  width: 40%;
+  height: 80%;
+  border-radius: 8px;
+  margin-top: 8%;
+  margin-right: 8%;
+  animation: fade 30s infinite;
+  animation-delay: 5s;
+  animation-iteration-count: 2;
+}
+
+@keyframes fade {
+  33% {
+    background-image: url("../images/share.jpg");
+  }
+
+  66% {
+    background-image: url("../images/discussion.jpg");
+  }
+
+  100% {
+    background-image: url("../images/connect.jpg");
+  }
+}
+
+.footer {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+  word-spacing: 7px;
+}
+@media screen and (max-width: 800px) {
+  #body_image {
+    display: none;
+  }
+
+  #head_signup {
+    display: none;
+  }
+
+  .container2_element1 {
+    width: 70%;
+  }
+}

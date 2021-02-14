@@ -1,0 +1,146 @@
+html {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+#forms1 {
+  position: absolute;
+  top: 18%;
+  left: 36%;
+  border: 1px black solid;
+  height: 60%;
+  width: 25%;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  padding: 1%;
+}
+
+#logop {
+  margin: 0%;
+  margin-left: 38%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#cross {
+  cursor: pointer;
+  float: right;
+  margin-right: 4px;
+  color: red;
+}
+
+#logo1 {
+  color: blue;
+}
+
+#logo2 {
+  color: red;
+}
+
+#logo3 {
+  color: gray;
+}
+
+#logo4 {
+  color: blue;
+}
+
+#logo5 {
+  color: green;
+}
+
+#texts1 {
+  margin-left: 44%;
+  font-size: 20px;
+  color: blue;
+  padding-top: 10%;
+}
+
+#text2 {
+  margin-left: 39%;
+  font-size: 20px;
+  color: blue;
+  padding-top: 10%;
+}
+
+#email1 {
+  width: 80%;
+  padding: 10px 15px;
+  border: 2px gray solid;
+  border-radius: 10px;
+  margin-top: 6%;
+  outline: none;
+}
+input[type="text"],
+[type="password"],
+[type="email"] {
+  font-weight: bold;
+  font-size: 16px;
+}
+#pass {
+  width: 80%;
+  padding: 10px 15px;
+  border: 2px gray solid;
+  margin-top: 12%;
+  border-radius: 10px;
+  outline: none;
+}
+
+#link2 {
+  color: blue;
+  display: block;
+  float: left;
+  margin-top: 35%;
+  margin-left: 0%;
+}
+
+#link3 {
+  color: blue;
+  display: block;
+  float: left;
+  margin-top: 31%;
+  margin-left: 0%;
+}
+
+#admin1 {
+  color: blue;
+  display: block;
+  margin-top: 37%;
+  margin-left: 1%;
+}
+
+#button2 {
+  padding: 7px 15px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  float: right;
+  margin-top: 35%;
+  margin-right: 3%;
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  #forms1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 80%;
+    width: 85%;
+  }
+
+  #button2 {
+    margin-right: 4%;
+  }
+}

@@ -1,0 +1,188 @@
+html,
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  left: 47%;
+  top: 5%;
+}
+
+#logo1 {
+  color: blue;
+}
+
+#logo2 {
+  color: red;
+}
+
+#logo3 {
+  color: gray;
+}
+
+#logo4 {
+  color: blue;
+}
+
+#logo5 {
+  color: green;
+}
+
+.forms {
+  border: 1px black solid;
+  background-color: #f6f6f6;
+  height: 62%;
+  width: 34%;
+  position: absolute;
+  top: 18%;
+  left: 31%;
+  border-radius: 8px;
+  padding: 2%;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+.forms input {
+  border: 2px gray solid;
+  border-radius: 10px;
+  padding: 10px 15px;
+  outline: none;
+}
+select {
+  border: 2px gray solid;
+  border-radius: 10px;
+  padding: 4px 6px;
+  outline: none;
+}
+#reg {
+  color: blue;
+  margin-left: 40%;
+  font-size: 20px;
+}
+#cross {
+  float: right;
+  color: red;
+  cursor: pointer;
+}
+#fname {
+  margin-top: 3%;
+}
+#lname {
+  margin-left: 20%;
+  margin-top: 3%;
+}
+#email {
+  width: 87%;
+  margin-top: 3%;
+}
+#pass {
+  margin-top: 3%;
+}
+#cpass {
+  margin-left: 20%;
+  margin-top: 3%;
+}
+#country_code {
+  margin-left: 25%;
+  margin-top: 3%;
+}
+#phone {
+  margin-left: 21%;
+  margin-top: 3%;
+}
+#sdob {
+  margin-left: 18%;
+  margin-top: 3%;
+}
+#dob {
+  margin-left: 20%;
+  padding: 9px 24px;
+  margin-top: 3%;
+}
+#gender {
+  margin-left: 25%;
+  margin-top: 3%;
+}
+#genders {
+  margin-left: 20%;
+  margin-top: 3%;
+}
+#signin {
+  margin-top: 10%;
+}
+#button1 {
+  background-color: blue;
+  color: #f6f6f6;
+  float: right;
+  border: none;
+  margin-top: -3%;
+  margin-right: 4%;
+  cursor: pointer;
+}
+#error {
+  color: red;
+  margin-left: 10%;
+}
+@media screen and (max-width: 1430px) {
+  .forms {
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    border: none;
+    background: #fff;
+  }
+  #fname {
+    width: 87%;
+  }
+  #lname {
+    width: 87%;
+    margin-left: 0%;
+  }
+  #email {
+    width: 87%;
+    margin-left: 0%;
+  }
+  #pass {
+    width: 87%;
+    margin-left: 0%;
+  }
+  #cpass {
+    width: 82%;
+    margin-left: 0%;
+  }
+  #phone {
+    width: 60%;
+    margin-left: 0%;
+  }
+  #country_code {
+    margin-left: 0%;
+    width: 26%;
+  }
+  #sdob {
+    margin-left: 0%;
+  }
+  #dob {
+    margin-left: 0%;
+    width: 55%;
+  }
+  #gender {
+    margin-left: 0%;
+  }
+  #genders {
+    margin-left: 11%;
+  }
+  #button {
+    margin-right: 6%;
+    margin-top: -5%;
+  }
+  .logo {
+    left: 39%;
+  }
+  #signin {
+    margin-top: 11%;
+  }
+}
